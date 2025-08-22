@@ -49,7 +49,6 @@ npm run dev
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
-- `npm run deploy` - Deploy to GitHub Pages (manual)
 
 ## Deployment to GitHub Pages
 
@@ -60,19 +59,9 @@ npm run dev
 3. Go to your repository Settings → Pages
 4. Set source to "GitHub Actions"
 
-### Manual Deployment
+### Manual Setup (Alternative)
 
-1. Build the project:
-```bash
-npm run build
-```
-
-2. Deploy using the deploy script:
-```bash
-npm run deploy
-```
-
-### Manual Setup
+If you prefer manual deployment:
 
 1. Build the project:
 ```bash

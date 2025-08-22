@@ -24,26 +24,24 @@ Your portfolio will be available at:
 
 If you prefer manual deployment:
 
+1. Build the project:
 ```bash
-# Build the project
 npm run build
-
-# Deploy using the script
-npm run deploy
 ```
 
-Then in GitHub repository settings:
-1. Go to **Settings** → **Pages**
-2. Select **Deploy from a branch**
-3. Choose `gh-pages` branch
-4. Select `/ (root)` folder
-5. Click **Save**
+2. In GitHub repository settings:
+   - Go to **Settings** → **Pages**
+   - Select **Deploy from a branch**
+   - Choose `gh-pages` branch
+   - Select `/ (root)` folder
+   - Click **Save**
 
 ## Troubleshooting
 
 - **Images not showing**: Make sure images are in `public/images/` folder
 - **Build fails**: Check that all dependencies are installed (`npm install`)
 - **Page not loading**: Wait a few minutes after deployment, GitHub Pages can take time to update
+- **Permission errors**: Make sure GitHub Pages is enabled in repository settings
 
 ## Custom Domain (Optional)
 
