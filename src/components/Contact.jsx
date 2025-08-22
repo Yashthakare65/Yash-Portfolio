@@ -23,7 +23,7 @@ export default function Contact() {
         setStatus({ type: 'success', message: 'Message sent successfully!' })
       } else {
         const data = new FormData(form)
-        const ownerEmail = import.meta.env.VITE_CONTACT_EMAIL || 'your@email.com'
+        const ownerEmail = import.meta.env.VITE_CONTACT_EMAIL || 'yash44thakare@email.com'
         const subject = `Portfolio Contact: ${data.get('name')} <${data.get('email')}>`
         const body = `${data.get('message')}`
         const mailto = `mailto:${ownerEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
