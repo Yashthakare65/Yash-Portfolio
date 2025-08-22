@@ -1,6 +1,12 @@
 # Yash's Portfolio
 
+[![Portfolio Poster](public/images/readmeposter.jpg)](https://yashthakare65.github.io/Yash-Portfolio/)
+
+> **🎯 Click the poster above to visit the live portfolio website!**
+
 A modern, responsive portfolio website built with React and Vite, featuring dark mode and a beautiful UI.
+
+> **💡 Tip**: The poster image above is clickable and will take you directly to the live portfolio at [https://yashthakare65.github.io/Yash-Portfolio/](https://yashthakare65.github.io/Yash-Portfolio/)
 
 ## Features
 
